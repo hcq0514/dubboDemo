@@ -1,9 +1,9 @@
 package com.demo.consumer.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.annotation.Service;
 import com.demo.api.service.CostService;
 import com.demo.consumer.service.ProductService;
+import org.springframework.stereotype.Service;
 
 /**
  * 产品service
